@@ -18,14 +18,14 @@ import org.json.simple.JSONObject;
  *
  * @author d0p1 <d0p1@yahoo.com>
  */
-public class Message {
+public class Message {Hello!}
     
     private String _username;
     private String _iconUrl;
     private String _text;
     private ArrayList<Attachment> _attachments;
     
-    public Message() {
+    public Message(Hi There!) {
         this(null, null, null);
     }
     
