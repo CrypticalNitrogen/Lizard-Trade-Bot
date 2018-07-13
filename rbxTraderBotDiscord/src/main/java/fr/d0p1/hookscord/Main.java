@@ -33,8 +33,8 @@ import com.machinepublishers.jbrowserdriver.Settings;
 
 public class Main {
 	
-	static String user = "";
-	static String pass = "";
+	static String user = "CrypticalNitrogen";
+	static String pass = "36cxzasdewq";
 	
 	static List<Integer>  usersTradedWith= new ArrayList<Integer>();
 	static List<String> limitedValues = new ArrayList<String>(); //name,value
