@@ -4,9 +4,9 @@ Just a simple java api for discord webhooks
 ## Usage
 
 ```java
-Hookscord hk = new Hookscord("https://canary.discordapp.com/api/webhooks/XXXX");
-Message msg = new Message("Trekkie Monster");
-msg.setText("Internet is for porn");
+Hookscord hk = new Hookscord("https://discordapp.com/api/webhooks/467277224593195009/WXrsSUrqBtx460z84weGsblWirnHFFvTodnz1FF47pLChP1anKxqVvMVP3g99P03Pa5z");
+Message msg = new Message("Hi Master!");
+msg.setText("Cryptical");
 hk.sendMessage(msg);
 ```
 
