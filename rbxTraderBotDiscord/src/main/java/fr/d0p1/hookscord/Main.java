@@ -51,9 +51,9 @@ public class Main {
 	static JBrowserDriver driver = new JBrowserDriver(Settings.builder().blockAds(true).javascript(true).build()); //trading browser
 	static JBrowserDriver driver2 = new JBrowserDriver(Settings.builder().blockAds(true).javascript(true).build()); //scraper browser
 	
-	static String webhook="";
+	static String webhook="https://discordapp.com/api/webhooks/467277224593195009/WXrsSUrqBtx460z84weGsblWirnHFFvTodnz1FF47pLChP1anKxqVvMVP3g99P03Pa5z";
 	
-	static String[] traders={};
+	static String[] traders={CrypticalNitrogen};
 	
 	
 	static boolean autoTrade=true;
